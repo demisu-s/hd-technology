@@ -30,7 +30,7 @@ export function Contact() {
   };
 
   const contactItems = [
-    { icon: Mail, label: 'Email', value: 'contact@hdtechsolutions.com', href: 'mailto:contact@hdtechsolutions.com' },
+    { icon: Mail, label: 'Email', value: 'infohd@gmail.com', href: 'mailto:infohd@gmail.com' },
     { icon: Phone, label: 'Phone', value: '+251 953 772 137', href: 'tel:+251953772137' },
     { icon: MapPin, label: 'Location', value: 'Addis Ababa, Ethiopia', href: '#' },
   ];
