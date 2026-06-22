@@ -1,15 +1,22 @@
 # HD Technology Solutions - Company Website
 
 <div align="center">
-  <img src="/public/hero-tech.svg" alt="HD Technology Solutions" width="200" />
-  <br />
-  <h3>Where Technology Meets Precision</h3>
-  <p>
-    <a href="#-about-the-project">About</a> •
-    <a href="#-features">Features</a> •
-    <a href="#-tech-stack">Tech Stack</a> •
-    <a href="#-getting-started">Getting Started</a> •
-    <a href="#-deployment">Deployment</a>
+  <img 
+    src="/public/hero-tech.svg" 
+    alt="HD Technology Solutions" 
+    width="800" 
+    style="border-radius: 16px; border: 2px solid #48db9c; box-shadow: 0 0 60px rgba(72, 219, 156, 0.15); max-width: 100%;"
+  />
+  <br /><br />
+  <h3 style="color: #48db9c; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; margin: 12px 0 8px 0;">
+    Where Technology Meets Precision
+  </h3>
+  <p style="font-size: 16px; color: #8A9BB8; font-family: 'Inter', sans-serif;">
+    <a href="#-about-the-project" style="color: #48db9c; text-decoration: none; font-weight: 500;">About</a> •
+    <a href="#-features" style="color: #48db9c; text-decoration: none; font-weight: 500;">Features</a> •
+    <a href="#-tech-stack" style="color: #48db9c; text-decoration: none; font-weight: 500;">Tech Stack</a> •
+    <a href="#-getting-started" style="color: #48db9c; text-decoration: none; font-weight: 500;">Getting Started</a> •
+    <a href="#-deployment" style="color: #48db9c; text-decoration: none; font-weight: 500;">Deployment</a>
   </p>
 </div>
 
