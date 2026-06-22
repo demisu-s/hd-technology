@@ -31,7 +31,7 @@ export function Contact() {
 
   const contactItems = [
     { icon: Mail, label: 'Email', value: 'contact@hdtechsolutions.com', href: 'mailto:contact@hdtechsolutions.com' },
-    { icon: Phone, label: 'Phone', value: '+251 911 234 567', href: 'tel:+251911234567' },
+    { icon: Phone, label: 'Phone', value: '+251 953 772 137', href: 'tel:+251953772137' },
     { icon: MapPin, label: 'Location', value: 'Addis Ababa, Ethiopia', href: '#' },
   ];
 
@@ -196,6 +196,33 @@ export function Contact() {
               />
               <span className="text-sm text-[#8A9BB8]">Typically responding within 24 hours</span>
             </motion.div>
+
+            {/* Map Section */}
+            <motion.div
+              className="bg-[#0C1525] border border-[#48db9c]/10 rounded-xl overflow-hidden hover:border-[#48db9c]/30 transition-all duration-200"
+              whileHover={{
+                boxShadow: '0 8px 30px -8px rgba(72, 219, 156, 0.08)',
+              }}
+            >
+              <div className="relative w-full h-48">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126231.52645351132!2d38.65889684316538!3d8.989502505874425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85ce3f2d8c0b%3A0x3e9b6b5b3b5b3b5b!2sAddis%20Ababa%2C%20Ethiopia!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="HD Technology Solutions Location"
+                  className="hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="p-3 text-center border-t border-[#48db9c]/10">
+                <p className="text-xs text-[#8A9BB8]">
+                  <span className="text-[#48db9c]">📍</span> Addis Ababa, Ethiopia
+                </p>
+              </div>
+            </motion.div>
           </motion.div>
 
           {/* Form */}
@@ -235,7 +262,7 @@ export function Contact() {
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full mt-1.5 bg-[#05080F] border border-[#48db9c]/10 rounded-lg px-4 py-3 text-[#F0F4FA] text-sm focus:border-[#48db9c]/40 outline-none transition-colors"
-                      placeholder="your@email.com"
+                      placeholder="info@email.com"
                       required
                     />
                   </div>

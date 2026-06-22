@@ -13,7 +13,7 @@ export function Logo({ className, width = 40, height = 40 }: LogoProps) {
   return (
     <div className={cn('relative', className)} style={{ width, height }}>
       <Image
-        src="/logo.png"
+        src="/Logo.png"
         alt="HD Technology Solutions"
         fill
         sizes={`${width}px`}
