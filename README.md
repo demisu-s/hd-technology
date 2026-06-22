@@ -1,7 +1,7 @@
 # HD Technology Solutions - Company Website
 
 <div align="center">
-  <img src="/public/Logo.png" alt="HD Technology Solutions" width="200" />
+  <img src="/public/hero-tech.svg" alt="HD Technology Solutions" width="200" />
   <br />
   <h3>Where Technology Meets Precision</h3>
   <p>
