@@ -11,7 +11,7 @@ export function Footer() {
           <Link href="/" className="flex items-center gap-3">
             <div className="relative w-8 h-8">
               <Image
-                src="/logo.png"
+                src="/Logo.png"
                 alt="HD Technology Solutions"
                 fill
                 className="object-contain"

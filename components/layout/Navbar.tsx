@@ -36,7 +36,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-10 h-10">
               <Image
-                src="/logo.png"
+                src="/Logo.png"
                 alt="HD Technology Solutions"
                 fill
                 className="object-contain"
